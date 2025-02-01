@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.thedarkpeasant.hapipillager.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "refmap": "hapipillager.mixins.refmap.json",
+  "mixins": [
+    "PillagerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
